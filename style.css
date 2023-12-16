@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+body{
+    background-color: rgb(240, 243, 245);
+}
+.room{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(69, 110, 93);
+    margin: auto;
+    border-radius: 30px;
+    font-family: Poppins ,sans-serif;
+    
+}
+.room1 h1{
+    color: rgb(247, 245, 245);
+    text-align: center;
+
+    margin: 35px;
+    padding-top: 25px;
+    font-size: 28px;
+}
+.room1 p{
+    color: white;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: center;
+
+}
+.room1 h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+}
+.room1 input{
+  margin-left: 150px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+input[type=button]{
+    margin-top: 25px;
+    margin-left: 185px;
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px;
+    font-family:Poppins,sans-serif;
+}
+.remaining{
+    color: white;
+   margin-left: 250px;
+}
+.guesses{
+    color: white;
+    margin-left: 130px;
+}
